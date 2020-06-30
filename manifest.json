@@ -1,0 +1,15 @@
+{
+    "name": "Http Blocker",
+    "version": "1.0",
+    "description": "Http Blocker",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["block.js"]
+    },
+    "icons": {
+        "16": "icons/blocked.png",
+        "48": "icons/blocked2.png",
+        "128": "icons/blocked1.png"
+    },
+    "manifest_version": 2
+}
